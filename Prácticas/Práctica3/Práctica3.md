@@ -47,7 +47,7 @@ Más tarde, para comprobar que funciona correctamente haremos peticiones a la IP
 curl http://192.168.227.131
 curl http://192.168.227.131
 ```
-![alt tag](https://github.com/Najlaemt/SWAP1516/blob/master/Pr%C3%A1cticas/Pr%C3%A1ctica3/curl.PNG?raw=true)
+![alt tag](https://github.com/NajMetaich/SWAP16/blob/master/Pr%C3%A1cticas/Pr%C3%A1ctica3/curl.PNG?raw=true)
 
 Editamos el archivo `/etc/nginx/config.d/default.conf` para que una de las máquinas reciba el doble de carga que la otra: 
 
@@ -57,7 +57,7 @@ upstream apaches {
  server 192.168.227.129 weight=2;
 } 
 ```
-![alt tag](https://github.com/Najlaemt/SWAP1516/blob/master/Pr%C3%A1cticas/Pr%C3%A1ctica3/weight.PNG?raw=true)
+![alt tag](https://github.com/NajMetaich/SWAP16/blob/master/Pr%C3%A1cticas/Pr%C3%A1ctica3/weight.PNG?raw=true)
 
 
 Ahora reiniciamos el servicio y hacemos curl para comprobar que funciona correctamente: 
@@ -190,7 +190,7 @@ sudo /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg
 ```
 Luego, en la Powershell hacemos un curl como hicimos antes: 
 
-![alt tag](https://github.com/Najlaemt/SWAP1516/blob/master/Pr%C3%A1cticas/Pr%C3%A1ctica3/haproxycurl.PNG?raw=true)
+![alt tag](https://github.com/NajMetaich/SWAP16/blob/master/Pr%C3%A1cticas/Pr%C3%A1ctica3/haproxycurl.PNG?raw=true)
 
 
 Vamos a configurar la ponderación dándole más carga a una que a la otra como hicimos anteriormente: 
