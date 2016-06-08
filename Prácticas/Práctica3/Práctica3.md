@@ -39,7 +39,7 @@ Ahora haremos una configuración roud-robin así que editamos la ruta
 /etc/nginx/config.d/default.conf 
 ```
 Le indicamos los servidores a los cuales tiene que enviar el tráfico el balanceador como se muestra en la siguiente captura: 
-![alt tag](https://github.com/Najlaemt/SWAP1516/blob/master/Pr%C3%A1cticas/Pr%C3%A1ctica3/confignginx.PNG?raw=true) 
+![alt tag](https://github.com/NajMetaich/SWAP16/blob/master/Pr%C3%A1cticas/Pr%C3%A1ctica3/confignginx.PNG?raw=true) 
 
 Más tarde, para comprobar que funciona correctamente haremos peticiones a la IP del balanceador a ver si nos redirige a las mismas máquinas. 
 
