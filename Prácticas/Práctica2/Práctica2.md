@@ -29,7 +29,7 @@ Ahora comprobamos su funcionamiento mediante
 ```sh 
 ssh root@192.168.227.129 y si está bien hecho no debería de pedir contraseña.
 ```
-![alt tag](https://github.com/Najlaemt/SWAP1516/blob/master/Pr%C3%A1cticas/Pr%C3%A1ctica2/ssh111.PNG?raw=true)
+![alt tag](https://github.com/NajMetaich/SWAP16/blob/master/Pr%C3%A1cticas/Pr%C3%A1ctica2/ssh111.PNG?raw=true)
 
 Comprobamos manualmente con un fichero que se envía correctamente. 
 
