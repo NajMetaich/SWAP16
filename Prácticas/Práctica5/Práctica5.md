@@ -62,7 +62,7 @@ editamos, como root, el /etc/mysql/my.cnf para realizar las modificaciones que s
 describen a continuación.
 
 Comentamos el parámetro bind-address que sirve para que escuche a un servidor:
-#bind-address 127.0.0.1
+`#bind-address 127.0.0.1`
 
 Le indicamos el archivo donde almacenar el log de errores. 
 
