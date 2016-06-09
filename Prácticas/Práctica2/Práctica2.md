@@ -33,7 +33,7 @@ ssh root@192.168.227.129 y si está bien hecho no debería de pedir contraseña.
 
 Comprobamos manualmente con un fichero que se envía correctamente. 
 
-![alt tag](https://github.com/NajMetaich/SWAP16/blob/master/Pr%C3%A1cticas/Pr%C3%A1ctica2/ssh111.PNG?raw=true)
+![alt tag](https://github.com/NajMetaich/SWAP16/blob/master/Pr%C3%A1cticas/Pr%C3%A1ctica2/ssh1111.PNG?raw=true)
 
 A continuación haremos lo mismo pero con la máquina 2. 
 ## Sincronización con rsync
